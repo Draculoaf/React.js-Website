@@ -24,7 +24,7 @@ function App() {
       <PersonTag />
 
       <Routes>
-        <Route path="https://Draculoaf.github.io/one/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Design" element={<Design />} />
         <Route path="/Art" element={<Art />} />
         <Route path="/Blog" element={<Blogs />} />
