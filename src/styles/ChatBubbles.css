@@ -1,0 +1,105 @@
+.contentbubbles {
+  margin-top: 0%;
+  margin-right: 15%;
+}
+
+/*Chat*/
+* {
+  box-sizing: border-box;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* Place the container to the left */
+.left {
+  left: 50%;
+}
+
+/* Place the container to the right */
+.right {
+  right: -18%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid black;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #f1d4e5;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgb(0, 0, 0);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #d0c0ff transparent transparent;
+}
+
+/* The actual content */
+.content-left {
+  padding: 20px 30px;
+  background-color: #f1d4e5;
+  position: relative;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.content-right {
+  padding: 20px 30px;
+  background-color: #d0c0ff;
+  position: relative;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  /* Place the chats to the left */
+  .proj-div::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+
+    .contentbubbles {
+      margin-right: 15%;
+    }
+  }
+}
+
+img {
+  max-width: 480px;
+  max-height: 480px;
+}
