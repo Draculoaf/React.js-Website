@@ -93,12 +93,19 @@
   }
   .u-burger {
     display: inherit;
-    margin-left: -450px;
+    margin-left: -2000%;
     margin-bottom: 10px;
   }
 
   .navbar img {
     display: none;
+  }
+
+  .hiddenLink {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 50%;
+    margin-top: 15%;
   }
 }
 

@@ -22,6 +22,7 @@ export default class NavBar extends Component {
       <div className="navbar">
         <div className="leftside " id={this.state.openLinks ? "open" : "close"}>
           <img src={Logo} />
+
           <div className="hiddenLink">
             <NavLink exact activeClassName="active" to="/">
               Home

@@ -90,6 +90,16 @@ export default class Blogs extends Component {
             </NavLink>
           </div>
         </div>
+
+        <div class="proj-div">
+          <div class="container right ">
+            <div class="content-right navbar content-blog">
+              <NavLink exact activeClassName="active" to="/BlogNine">
+                Internet Art Rationale
+              </NavLink>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

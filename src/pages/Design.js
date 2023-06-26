@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ChatBubbles from "../styles/ChatBubbles.css";
+import NavBar from "../styles/Navbar.css";
 import WW from "../assets/WW.png";
 import NWF from "../assets/Nav_WF.png";
 import CWF from "../assets/Chat_WF.png";

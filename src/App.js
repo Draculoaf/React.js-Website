@@ -16,6 +16,7 @@ import BlogFive from "./pages/BlogFive";
 import BlogSix from "./pages/BlogSix";
 import BlogSeven from "./pages/BlogSeven";
 import BlogEight from "./pages/BlogEight";
+import BlogNine from "./pages/BlogNine";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/BlogSix" element={<BlogSix />} />
         <Route path="/BlogSeven" element={<BlogSeven />} />
         <Route path="/BlogEight" element={<BlogEight />} />
+        <Route path="/BlogNine" element={<BlogNine />} />
       </Routes>
 
       <Chat />
