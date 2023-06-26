@@ -49,7 +49,7 @@ export default class BlogSeven extends Component {
           <p>
             {" "}
             <Link to="/BlogEight">
-              <button>
+              <button className="blog-button">
                 <div className="next-link">
                   <AttachFileOutlinedIcon />
                 </div>

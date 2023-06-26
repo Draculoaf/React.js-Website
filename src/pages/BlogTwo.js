@@ -44,7 +44,7 @@ export default class BlogTwo extends Component {
           <p>
             {" "}
             <Link to="/BlogThree">
-              <button>
+              <button className="blog-button">
                 <div className="next-link">
                   <AttachFileOutlinedIcon />
                 </div>

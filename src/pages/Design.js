@@ -128,7 +128,9 @@ export default class Design extends Component {
                   because the text which is used, is easy to read, and generally
                   normal for people to see. I changed the sizing, however, of
                   the H1 headings and the body font because it was a bit
-                  difficult for me to easily read when I was tired.{" "}
+                  difficult for me to easily read when I was tired. The current
+                  font is a sans-seriff font, which I decided to keep because it
+                  is easier for people with dyslexia to read.
                 </p>
               </div>
             </div>
@@ -271,6 +273,11 @@ export default class Design extends Component {
                   bottom of the screen to "there are no more messages to see"
                   because users became confused that it said you could type a
                   message, however, you could not actually type a message there.
+                </p>
+                <p>
+                  For the font, I changed it to Helvetica Neue which is the same
+                  font used by WhatsApp. It is also a sans-seriff font which is
+                  easier for dyslexic people to read.
                 </p>
               </div>
             </div>

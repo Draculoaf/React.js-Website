@@ -96,7 +96,8 @@
     left: 20px;
   }
 }
-@media screen and (max-width: 1550px) {
+
+@media screen and (max-width: 1500px) {
   .u-img {
     max-width: 200px;
     max-height: 250px;
@@ -104,6 +105,11 @@
 }
 
 img {
+  max-width: 480px;
+  max-height: 480px;
+}
+
+.u-img {
   max-width: 480px;
   max-height: 480px;
 }
