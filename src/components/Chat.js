@@ -7,10 +7,12 @@ export default class Chat extends Component {
     return (
       <div>
         <footer className="chat">
-          <div className="type">Type a message</div>{" "}
-          <div className="send">
-            <SendOutlinedIcon />
-          </div>
+          <div className="type">
+            No more messages to see...{" "}
+            <div className="send">
+              <SendOutlinedIcon />
+            </div>
+          </div>{" "}
         </footer>
       </div>
     );

@@ -34,7 +34,7 @@
   top: 22px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 32px;
   border: medium solid black;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #f1d4e5;
@@ -48,7 +48,7 @@
   top: 22px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 31px;
   border: medium solid rgb(0, 0, 0);
   border-width: 10px 10px 10px 0;
   border-color: transparent #d0c0ff transparent transparent;
@@ -76,7 +76,7 @@
 @media screen and (max-width: 600px) {
   /* Place the chats to the left */
   .proj-div::after {
-    left: 31px;
+    left: 25px;
   }
 
   /* Full-width containers */
@@ -86,16 +86,20 @@
     padding-right: 25px;
   }
 
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-
-    .contentbubbles {
-      margin-right: 15%;
-    }
+  .right::before {
+    left: 61px;
+  }
+  .left::before {
+    right: 16px;
+  }
+  .container {
+    left: 20px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .u-img {
+    max-width: 200px;
+    max-height: 250px;
   }
 }
 

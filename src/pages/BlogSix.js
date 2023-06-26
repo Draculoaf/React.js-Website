@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import AttachFileOutlinedIcon from "@mui/icons-material/AttachFileOutlined";
 
 export default class BlogSix extends Component {
   render() {
@@ -62,7 +63,12 @@ export default class BlogSix extends Component {
           <p>
             {" "}
             <Link to="/BlogSeven">
-              <button>Next blog - AI and Art</button>
+              <button>
+                <div className="next-link">
+                  <AttachFileOutlinedIcon />
+                </div>
+                Next blog - AI and Art
+              </button>
             </Link>
           </p>
         </article>

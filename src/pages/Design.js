@@ -47,7 +47,7 @@ export default class Design extends Component {
                   I've attached an image for you to see what WhatsApp Web looks
                   like on my windows laptop.
                 </p>
-                <img src={WW} />
+                <img src={WW} className="u-img" />
               </div>
             </div>
           </div>
@@ -77,13 +77,13 @@ export default class Design extends Component {
                   the feeling of a text messaging app, without having to include
                   things which are there in the actual app for functionality.{" "}
                 </p>{" "}
-                <img src={WWWF} />
+                <img src={WWWF} className="u-img" />
                 <p>
                   This is the wireframes for the resonsive version which was
                   repurposed and used for the overall design.{" "}
                 </p>
-                <img src={NWF} />
-                <img src={CWF} />
+                <img src={NWF} className="u-img" />
+                <img src={CWF} className="u-img" />
                 <p>
                   The design which I ended up using was based on the "Home page"
                   wireframe. I felt that this conveyed the most imortant aspects
@@ -202,6 +202,13 @@ export default class Design extends Component {
                   however, they are green (#dfefca), further indicating that
                   it's different from the rest of the speech bubbles.
                 </p>
+                <p>
+                  I decided to make the blog content outside of the speech
+                  bubbles, because it was made using a different tone - you'll
+                  notice that the design section and home page are more of a
+                  friendly, chatty register, however, the blogs are written in a
+                  more serious tone.
+                </p>
               </div>
             </div>
           </div>
@@ -225,6 +232,45 @@ export default class Design extends Component {
                   have benefitted a sticky nav bar. This becomes especially
                   troublesome in the long blog posts as you need to constantly
                   scroll back up to get the menu.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content-left">
+              <p>
+                After your last submission, what are some changes that you made
+                for this submission?
+              </p>
+            </div>
+          </div>
+
+          <div class="proj-div">
+            <div class="container right">
+              <div class="content-right">
+                <h2>Jess</h2>
+                <p>
+                  For this submission, I made the following changes: Firstly, I
+                  added a button so that a person can go from one blog to the
+                  next without having to go back to the homepage. I made the
+                  buttons green (to match with the colour I used in the home
+                  page for the blogs, as a way to inidcate that it is a blog),
+                  and I added a small "attachment" icon to it, so that it was
+                  inline with the themes of the website and pretends to be a
+                  link to a new page, like in a message. Additionally, I added a
+                  "house" icon to the "back to blog page" button on the last
+                  blog, to ensure that people knew they were going out of the
+                  blogs.
+                </p>
+                <p>
+                  Secondly, I changed the alignment of the text within the
+                  message bubbles so that it is easier to read, and corresponds
+                  more consistently with actual messages . Additionally, I
+                  changed the text within the "send message" component at the
+                  bottom of the screen to "there are no more messages to see"
+                  because users became confused that it said you could type a
+                  message, however, you could not actually type a message there.
                 </p>
               </div>
             </div>

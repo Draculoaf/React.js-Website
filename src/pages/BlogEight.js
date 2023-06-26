@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import AttachFileOutlinedIcon from "@mui/icons-material/AttachFileOutlined";
+import CottageOutlinedIcon from "@mui/icons-material/CottageOutlined";
 
 export default class BlogEight extends Component {
   render() {
@@ -44,12 +46,22 @@ export default class BlogEight extends Component {
           <p>
             {" "}
             <Link to="/BlogOne">
-              <button>Back to blog one - JS and Internet Art</button>
+              <button>
+                <div className="next-link">
+                  <AttachFileOutlinedIcon />
+                </div>
+                Back to blog one - JS and Internet Art
+              </button>
             </Link>
           </p>
           <p>
             <Link to="/Blog">
-              <button>Back to blog page</button>
+              <button>
+                <div className="next-link">
+                  <CottageOutlinedIcon />
+                </div>
+                Back to blog page
+              </button>
             </Link>
           </p>
         </article>

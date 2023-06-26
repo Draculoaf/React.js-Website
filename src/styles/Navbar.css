@@ -37,6 +37,11 @@
   margin: 45px;
 }
 
+.navbar a:hover {
+  cursor: pointer;
+  opacity: 0.65;
+}
+
 .links {
   margin-top: 3%;
   margin-left: 45%;

@@ -8,3 +8,23 @@
 .content-blog {
   background-color: #dfefca;
 }
+
+button {
+  border: none;
+  padding: 20px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #dfefca;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+.next-link {
+  float: left;
+  display: inline;
+  margin-top: -5px;
+  padding-right: 2px;
+}
