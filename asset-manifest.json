@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/one/static/css/main.b9216472.css",
-    "main.js": "/one/static/js/main.d4ce1c21.js",
-    "static/media/WW.png": "/one/static/media/WW.39d1f49618e4b36a9a06.png",
-    "static/media/WW_WF.png": "/one/static/media/WW_WF.87e94fdabc3e20807784.png",
-    "static/media/Nav_WF.png": "/one/static/media/Nav_WF.a44b67e05d819be57738.png",
-    "static/media/Chat_WF.png": "/one/static/media/Chat_WF.a10efdf65ece543439d9.png",
-    "index.html": "/one/index.html",
-    "main.b9216472.css.map": "/one/static/css/main.b9216472.css.map",
-    "main.d4ce1c21.js.map": "/one/static/js/main.d4ce1c21.js.map"
+    "main.css": "/React.js-Website/static/css/main.b9216472.css",
+    "main.js": "/React.js-Website/static/js/main.57bfaa4c.js",
+    "static/media/WW.png": "/React.js-Website/static/media/WW.39d1f49618e4b36a9a06.png",
+    "static/media/WW_WF.png": "/React.js-Website/static/media/WW_WF.87e94fdabc3e20807784.png",
+    "static/media/Nav_WF.png": "/React.js-Website/static/media/Nav_WF.a44b67e05d819be57738.png",
+    "static/media/Chat_WF.png": "/React.js-Website/static/media/Chat_WF.a10efdf65ece543439d9.png",
+    "index.html": "/React.js-Website/index.html",
+    "main.b9216472.css.map": "/React.js-Website/static/css/main.b9216472.css.map",
+    "main.57bfaa4c.js.map": "/React.js-Website/static/js/main.57bfaa4c.js.map"
   },
   "entrypoints": [
     "static/css/main.b9216472.css",
-    "static/js/main.d4ce1c21.js"
+    "static/js/main.57bfaa4c.js"
   ]
 }
